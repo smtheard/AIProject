@@ -27,7 +27,7 @@ public:
     void color_conv(char);
     void Winner(char);
 protected:
-    std::string player1,player2,dummy;
+    std::string player1, player2;
     char board[9];
     char* p;
     std::array<char*,3> row1;

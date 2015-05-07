@@ -5,12 +5,12 @@
 #include "game.h"
 #include <vector>
 #include <time.h>
+#include <array>
 
 enum specifier {CORNERS=0, MIDDLE_CORNERS};
 enum status {WINS,BLOCK,NONE};
 
-class computer :
-        public game
+class computer : public game
 {
 protected:
     struct win_block_info{
